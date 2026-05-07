@@ -1,0 +1,17 @@
+{
+  "name": "uo-minimap-server",
+  "version": "0.1.0",
+  "description": "Self-hosted realtime server for UO live map and proximity voice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "license": "MIT"
+}
